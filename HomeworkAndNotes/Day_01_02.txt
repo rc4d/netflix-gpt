@@ -1,0 +1,47 @@
+● What is Emmet?
+Ans - “Emmet is a plug in for many popular text editors which greatly improves HTML & CSS workflow:” 
+	 And Emmet does fulfill what they promise, you can use short expressions to generate HTML markup, CSS. 
+● Difference between a Library and Framework?
+
+Ans - Libraries provide developers with predefined functions and classes to make their work easier and boost the development process
+      whereas Framework, on the other hand, is like the foundation upon which developers build applications for specific platforms. 
+	
+● What is CDN? Why do we use it?
+
+Ans - A Content Delivery Network (CDN) is a geographically distributed network of servers and their data centers that help in content distribution to users with minimal delay.
+	We use it for the following reasons :-
+	1. Decrease Server Load
+	2. Improve Site Speed and Website Performance
+	3. Allow Audience Segmentation Based on User Analytics
+	4. Reduce Packet Loss and Lower Network Latency
+	5. Enable Advanced Website Security
+	6. Enhance Content Availability
+
+● Why is React known as React?
+Ans - React was developed for applications (Facebook) that have constantly changing data. 
+	Since React is a front-end framework or the “View” in MVC, this means that as the user clicks around and changes the app's data,
+      the view should “react” or change with those user events.
+
+
+● What is crossorigin in script tag?
+
+Ans - The crossorigin attribute, valid on the <audio>, <img>, <link>, <script>, and <video> elements, provides support for CORS, defining how the element handles cross-origin requests, 
+	thereby enabling the configuration of the CORS requests for the element's fetched data. Depending on the element, the attribute can be a CORS settings attribute.
+● What is diference between React and ReactDOM ?
+
+Ans - React library is responsible for creating views and ReactDOM library is responsible to actually render UI in the browser.
+
+● What is difference between react.development.js and react.production.js files via CDN?
+Ans - The development version contains helper function such as warnings whereas, in production all comments are removed and dont include helper function .
+
+● What is async and defer?
+
+Default - By default, as soon as the browser sees a script tag it downloads the file and then executes the script file. The script files are executed in the order of their occurrence.
+
+async - The browser will download the script file and continue parsing HTML parallelly until the file is downloaded. The file is executed as soon as it is downloaded.
+
+defer - The browser will download the script and do HTML parsing at the same time. After parsing is done, the script files are executed in the order of their occurrence.
+
+Note: In defer, the js files are executed in the order of their occurrence in the HTML file while in the case of the async attribute the script files are executed in the order of download time.
+
+Ans - 

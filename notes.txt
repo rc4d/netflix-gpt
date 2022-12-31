@@ -1,0 +1,7 @@
+https://parceljs.org/features/development/
+
+
+"browserlist": [
+    "last 2 versions"
+]
+https://browserslist.dev/?q=bGFzdCAyIHZlcnNpb25z
