@@ -45,3 +45,5 @@ defer - The browser will download the script and do HTML parsing at the same tim
 Note: In defer, the js files are executed in the order of their occurrence in the HTML file while in the case of the async attribute the script files are executed in the order of download time.
 
 Ans - 
+
+https://codeshare.io/6pe7JQ

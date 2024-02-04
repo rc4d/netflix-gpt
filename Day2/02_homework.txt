@@ -1,0 +1,3 @@
+What is difference between NPM and NPX?
+
+The command npm is used to download JavaScript packages from Node Package Manager, and npx is used to execute JavaScript packages downloaded this way.

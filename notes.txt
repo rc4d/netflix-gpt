@@ -5,3 +5,17 @@ https://parceljs.org/features/development/
     "last 2 versions"
 ]
 https://browserslist.dev/?q=bGFzdCAyIHZlcnNpb25z
+
+watch the Day2 31st Dec 2022 recording again. 
+
+https://bitbucket.org/namastedev/namaste-react-live/src/master/
+
+ Web Development frontend 
+If we have more data let say apx 1000 record, if we are loading initial 50 record then page another 50 resord, how we should handle search functionality, should we always hit backend api?
+It depends on the specific requirements of your application, but one approach could be to load all of the data initially and perform the search client-side using JavaScript. This would avoid the need to send a request to the backend every time the user conducts a search, which could improve the performance of the application. However, this approach may not be suitable if the data set is very large or if the data is sensitive and should not be exposed to the client. In such cases, it would be better to send the search query to the backend and only retrieve the relevant data from the server.
+
+
+
+Make react project live
+
+https://blog.logrocket.com/deploying-react-apps-github-pages/

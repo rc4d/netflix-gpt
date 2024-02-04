@@ -1,0 +1,5 @@
+1. What is shimmer UI?
+    Shimmer UI is a user interface design pattern that is used to indicate that data is being loaded or processed in the background. It typically involves displaying a loading animation over a section of the interface where content will eventually be displayed. The animation is meant to give the user visual feedback that something is happening and to prevent the interface from feeling unresponsive.
+    A shimmer UI resembles the page's actual UI, so users will understand how quickly the web or mobile app will load even before the content has shown up. It gives people an idea of what's about to come and what's happening (it's currently loading) when a page full of content/data takes more than 3 - 5 seconds to load.
+    
+2.

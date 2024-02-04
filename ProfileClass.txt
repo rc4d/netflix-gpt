@@ -1,0 +1,48 @@
+import React from "react";
+
+class ProfileClass extends React.Component{
+
+        constructor(props){
+            super(props);
+            this.state = {
+                userInfo: {
+                    name: "Dummy Name",
+                    location: "Dummy Location"
+                },
+            };
+            console.log("Child - Constructor called "+ this.props.name);
+        }
+        // async componentDidMount() {
+        //     const res = await fetch("https://api.github.com/users/rc4d").then( data => data.json());
+        //     console.log(res);
+        //     this.setState({
+        //         userInfo: res
+        //     });
+        //     console.log("Child - API call"+ this.props.name);
+        // }
+        componentDidMount() {
+            this.timer = setInterval(() => console.log("Namaste OP"), 1000);
+        }
+        componentDidUpdate(){
+            console.log("Child - componentDidUpdate called");
+        }
+        componentWillUnmount(){
+            clearInterval(this.timer);
+            console.log("Child - componentWillUnmount called");
+        }
+    // const {name, xyz} = this.props;
+    render(){
+        console.log("Child - Render called."+ this.props.name);
+        // const {name, xyz} = this.props;
+        const {name,company, location, avatar_url} = this.state.userInfo;
+        return (
+           <> <h1>Profile class Component </h1>
+            <h2>{name} works at {company} in {location}</h2>
+            <img alt="github profile" src={avatar_url} />
+        </>
+        )
+    }
+};
+
+
+export default ProfileClass;
